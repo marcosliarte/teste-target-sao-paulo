@@ -1,6 +1,4 @@
 
-# test-target-java
-Repository created for the knowledge test for the internship position at Target in Ribeirão Preto.
 =======
 # Projeto de Desafios de Lógica (Questões 1 a 5)
 
