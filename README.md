@@ -1,5 +1,4 @@
 
-=======
 # Projeto de Desafios de Lógica (Questões 1 a 5)
 
 Este projeto consiste em um conjunto de cinco desafios de lógica, onde cada questão possui sua própria página com uma lógica de resolução. Foi desenvolvido usando HTML, CSS, JavaScript e Node.js.
@@ -65,4 +64,3 @@ Clique no botão para visualizar a resposta e o passo a passo de como o resultad
 Autor
 Marcos Antônio Liarte Neves
 email: marcos.liarte.neves@gmail.com
->>>>>>> master
