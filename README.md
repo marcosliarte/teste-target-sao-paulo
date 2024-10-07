@@ -34,7 +34,7 @@ Este projeto contém soluções para cinco questões de lógica de programação
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/marcosliarte/test-target.git
+   git clone https://github.com/marcosliarte/test-target-sao-paulo.git
    cd test-target
 Instale as dependências do Node.js:
 
