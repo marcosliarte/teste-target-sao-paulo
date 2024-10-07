@@ -1,31 +1,64 @@
+
+/* Estilo básico para o body */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     background-color: #f4f4f4;
     color: #333;
     margin: 0;
     padding: 20px;
 }
 
+/* Estilo do container principal */
 .container {
     max-width: 600px;
-    margin: auto;
-    background: white;
+    margin: 0 auto;
+    background: #fff;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Estilo do título */
 h1 {
     text-align: center;
+    color: #4a4a4a;
 }
 
-h2 {
-    margin-top: 20px;
-    text-align: center;
+/* Estilo dos inputs e botões */
+input[type="text"], 
+input[type="file"],
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
 }
 
-.resultado {
-    margin-top: 20px;
+/* Estilo do botão ao passar o mouse */
+button:hover {
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Estilo dos parágrafos de resultado */
+p {
+    margin: 15px 0;
     font-size: 18px;
-    line-height: 1.6;
+}
+
+/* Link para voltar ao menu */
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover {
+    text-decoration: underline;
 }

@@ -1,42 +1,36 @@
+# Projeto de Lógica de Programação
 
-# Projeto de Desafios de Lógica (Questões 1 a 5)
+Este projeto contém soluções para cinco questões de lógica de programação, cada uma abordando um conceito diferente. As questões são:
 
-Este projeto consiste em um conjunto de cinco desafios de lógica, onde cada questão possui sua própria página com uma lógica de resolução. Foi desenvolvido usando HTML, CSS, JavaScript e Node.js.
+## Questões
 
-## Questões Implementadas
+1. **Verificar valor da soma**  
+   Esta questão envolve calcular a soma dos números de 1 a um determinado índice.
 
-1. **Questão 1: Verificação de Fibonacci**  
-   Verifica se um número faz parte da sequência de Fibonacci.
+2. **Verificação de Fibonacci**  
+   Um programa que verifica se um número informado pertence à sequência de Fibonacci e exibe a sequência até esse número.
 
-2. **Questão 2: Verificar uma Letra em uma String**  
-   Verifica a letra "a" em uma string, considerando tanto maiúsculas quanto minúsculas.
+3. **Faturamento Diário**  
+   Um programa que carrega dados de faturamento diário a partir de um arquivo JSON ou XML, calculando o menor e maior faturamento, a média mensal e o número de dias com faturamento acima da média.
 
-3. **Questão 3: Cálculo da Soma**  
-   Calcula a soma de números de acordo com uma sequência predefinida.
+4. **Percentual de Representação por Estado**  
+   Este programa calcula o percentual de representação de cada estado em relação ao faturamento total mensal da distribuidora, exibindo os resultados graficamente.
 
-4. **Questão 4: Descobrir o Próximo Elemento**  
-   Sequências numéricas com lógica progressiva. O objetivo é descobrir o próximo número na sequência.
-
-5. **Questão 5: Enigma dos Três Interruptores**  
-   Lógica de resolução de um enigma envolvendo três interruptores.
+5. **Inverter uma String**  
+   Um programa simples que inverte os caracteres de uma string informada pelo usuário ou definida no código.
 
 ## Tecnologias Utilizadas
 
-- **Frontend:**
-  - HTML5
-  - CSS3
-  - JavaScript
+- HTML5
+- CSS3
+- JavaScript
 
-- **Backend:**
-  - Node.js
+## Como Executar
 
-## Pré-requisitos
+1. Clone este repositório em sua máquina local.
+2. Abra o arquivo `index.html` em um navegador web.
+3. Navegue pelas diferentes questões e siga as instruções em cada uma.
 
-Para rodar o projeto localmente, você precisará ter:
-
-- [Node.js](https://nodejs.org/) instalado.
-
-## Instruções de Instalação e Execução
 
 1. Clone este repositório:
    ```bash

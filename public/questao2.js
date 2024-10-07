@@ -1,21 +1,34 @@
-document.getElementById('checkLetterButton')?.addEventListener('click', () => {
-    const inputString = document.getElementById('inputString').value;
-
-    if (!inputString) {
-        alert('Por favor, insira uma string!');
+document.getElementById('checkFibonacciButton')?.addEventListener('click', async () => {
+    const numberInput = document.getElementById('fibonacciInput').value;
+    
+    if (!numberInput) {
+        alert('Por favor, insira um número!');
         return;
     }
 
-    const occurrences = countLetterA(inputString);
-    document.getElementById('letterResult').innerText = `A letra 'a' aparece ${occurrences.count} vez(es).`;
+    const response = await fetch(`/check-fibonacci/${numberInput}`);
+    const result = await response.json();
 
-    // Destacar a letra 'a' na string
-    const highlightedString = inputString.replace(/a/gi, match => `<span class="highlight">${match}</span>`);
-    document.getElementById('highlightedString').innerHTML = `String: ${highlightedString}`;
+    // Exibir a sequência de Fibonacci e destacar o número inserido
+    const sequence = getFibonacciSequence(parseInt(numberInput));
+    const highlightedSequence = sequence.map(num => num === parseInt(numberInput) ? `<span class="highlight">${num}</span>` : num).join(', ');
+    
+    document.getElementById('fibonacciResult').innerText = result.isFibonacci 
+        ? `${numberInput} pertence à sequência de Fibonacci.` 
+        : `${numberInput} não pertence à sequência de Fibonacci.`;
+
+    document.getElementById('fibonacciSequence').innerHTML = `Sequência: ${highlightedSequence}`;
 });
 
-// Função para contar a letra 'a' na string
-const countLetterA = (str) => {
-    const count = (str.match(/a/gi) || []).length; // RegEx para encontrar 'a' e 'A'
-    return { count };
+
+const getFibonacciSequence = (max) => {
+    let sequence = [];
+    let a = 0, b = 1;
+
+    while (a <= max) {
+        sequence.push(a);
+        [a, b] = [b, a + b];
+    }
+
+    return sequence;
 };

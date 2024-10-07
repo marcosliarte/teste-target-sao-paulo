@@ -3,16 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Questão 3: Cálculo da Soma</title>
-    <link rel="stylesheet" href="questao3.css"> 
+    <title>Questão 3: Faturamento Diário</title>
+    <link rel="stylesheet" href="questao3.css">
     <script src="questao3.js" defer></script>
 </head>
 <body>
     <div class="container">
-        <h1>Questão 3: Cálculo da Soma</h1>
-        <button id="calculateSumButton">Calcular Soma</button>
-        <p id="sumResult"></p>
-        <div id="stepByStep"></div> <!-- Div para exibir o passo a passo -->
+        <h1>Questão 3: Faturamento Diário</h1>
+        <input type="file" id="dataFile" accept=".json, .xml" />
+        <button id="loadDataButton">Carregar Faturamento</button>
+        <p id="minValue"></p>
+        <p id="maxValue"></p>
+        <p id="averageValue"></p> <!-- Adicione esta linha -->
+        <p id="daysAboveAverage"></p>
         <br>
         <a href="index.html">Voltar ao Menu</a>
     </div>
