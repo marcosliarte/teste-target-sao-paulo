@@ -51,10 +51,7 @@ Abra o navegador e acesse o seguinte endereço:
 http://localhost:3000
 Cada questão pode ser acessada individualmente a partir do menu principal.
 
-Como Testar
-Navegue até a página inicial e escolha qualquer uma das cinco questões.
-Cada questão possui um botão de verificação ou cálculo.
-Clique no botão para visualizar a resposta e o passo a passo de como o resultado foi obtido.
+
 Autor
 Marcos Antônio Liarte Neves
 email: marcos.liarte.neves@gmail.com
